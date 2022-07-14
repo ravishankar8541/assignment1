@@ -8,9 +8,9 @@ Example –
 #include"stdio.h"
 int main()
 {
-    int HH,MM;
+    int hour,minute;
     printf("\"HH:MM\"\n");
-    scanf("%:d%d",&HH,&MM);
-    printf("\"%d hour and %d minute\" ",HH,MM);
+    scanf("%d:%d",&hour,&minute);
+    printf("\"%d hour and %d minute\" ",hour,minute);
 return 0;
 }
